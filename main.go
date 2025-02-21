@@ -53,11 +53,11 @@ func playerMovement(key ebiten.Key) bool {
 func (g *Game) Update() error {
 	//Smooth Movement
 	if ebiten.IsKeyPressed(ebiten.KeyArrowRight) {
-		posR += 60
+		posR += 10
 	}
 
 	if ebiten.IsKeyPressed(ebiten.KeyArrowLeft) {
-		posR -= 60
+		posR -= 10
 	}
 
 	return nil
