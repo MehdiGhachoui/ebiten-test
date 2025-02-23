@@ -70,7 +70,6 @@ func (g *Game) Draw(screen *ebiten.Image) {
 	screen.DrawImage(img, op)
 }
 
-// ?
 // works like zoom somehow ??
 // more meangninful when the window is resizable
 func (g *Game) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeight int) {
